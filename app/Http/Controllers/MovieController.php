@@ -19,11 +19,7 @@ class MovieController extends Controller
         // Lấy danh sách và phân trang
         $movies = $query->orderBy('created_at', 'desc')->paginate(8);
 
-        // Thêm imageUrl cho từng item
-        $movies->getCollection()->transform(function ($movie) {
-            $movie->imageUrl =str_replace('localhost', '10.0.2.2', asset('storage/' . $movie->image));
-            return $movie;
-        });
+
 
         return response()->json($movies);
     }
