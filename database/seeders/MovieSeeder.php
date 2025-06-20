@@ -84,7 +84,7 @@ class MovieSeeder extends Seeder
                 'status' => 'Hoàn thành',
                 'actors' => 'Lâm Nhất, Hứa Giai Kỳ',
                 'rating' => 8.1,
-                'imageUrl' => 'storage/yeu-nham-ban-than',
+                'imageUrl' => 'storage/yeu-nham-ban-than.webp',
                 'content' => 'Tình cảm dở khóc dở cười giữa hai người bạn thân lâu năm.'
             ],
             [
@@ -95,7 +95,7 @@ class MovieSeeder extends Seeder
                 'status' => 'Hoàn thành',
                 'actors' => 'Trần Vỹ Đình, Dương Mịch',
                 'rating' => 7.3,
-                'imageUrl' => 'storage/bi-mat-kinh-hoang',
+                'imageUrl' => 'storage/bi-mat-kinh-hoang.webp',
                 'content' => 'Một vụ án bí ẩn làm đảo lộn cuộc sống yên bình.'
             ],
             [
@@ -172,7 +172,7 @@ class MovieSeeder extends Seeder
                 'status' => 'Hoàn thành',
                 'actors' => 'Dương Tử',
                 'rating' => 7.8,
-                'imageUrl' => 'storage/hoa-moc-lan',
+                'imageUrl' => 'storage/hoa-moc-lan.jpg',
                 'content' => 'kể về cô gái a lan mạnh mé cải trang thành nam nhi để tòng quân ...'
             ],
         ];
